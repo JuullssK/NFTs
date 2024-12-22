@@ -1274,3 +1274,232 @@ top: 750px;
   padding: 11px 27px;
 }
   }
+  @media screen and (max-width: 320px){
+    .container{
+      max-width: 300px;
+    }
+    .slogan{
+      font-size: 45px;
+      line-height: 90px;
+      padding-bottom: 45px;
+    }
+    .button--max{
+    font-size: 16px;
+    padding: 2% 10%;
+  }
+  .artist img {
+    height: 405px;
+    width: 258px;
+  }
+  .ttbid {
+    font-size: 18px;
+  }
+  .tbid{
+    font-size: 11px;
+  }
+  .text-bid:nth-child(1) {
+    margin-right: 55px;
+  }
+  .artist__bid {
+    top: 640px;
+    padding: 16px 11px 9px 23px;
+  }
+  .artist__start {
+    top: 920px;
+    padding: 25px 15px 25px 0px;
+  }
+  .sbid{
+    font-size: 23px;
+  }
+  .ssbid{
+    font-size: 21px;
+  }
+  .button{
+    font-size: 16px;
+  }
+  .button--start{
+    padding: 0px 18px;
+  }
+  .start-bid:first-child {
+    margin-right: 30px;
+  }
+  .title {
+    font-size: 30px;
+    padding-left: 17%;
+  }
+  .title--purple::before{
+    width: 65px;
+  height: 65px;
+  right: 165px;
+  }
+  .title--purple--unique{
+    padding-left: 0;
+    text-align: center;
+  }
+  .title--purple--unique::before{
+    bottom: 35px;
+    left: 45px;
+    width: 55px;
+    height: 55px;
+  }
+  .creators {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .cards {
+    margin-bottom: 15px;
+    padding-top: 105px;
+    padding-left: 0;
+  }
+  .title--pink::before {
+    width: 65px;
+    height: 65px;
+      left: 35px;
+  }
+  .collections .title--pink::before{
+    bottom: 30px;
+  }
+  .back {
+    left: 165px;
+  }
+  .next {
+    left: 50px;
+  }
+  .collections .auction-image img{
+    width: 270px;
+    height: auto;
+  }
+  .card {
+    height: 100px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+  }
+  .info__name {
+    font-size: 21px;
+  }
+  .info__eth {
+    font-size: 15px;
+  }
+  .count {
+    margin-right: 10px;
+    padding-left: 10px;
+    height: 60px;
+  }
+  .count__number {
+    font-size: 21px;
+  }
+  .count__items {
+    font-size: 16px;
+  }
+  .card .avatar img{
+    margin-right: 25px;
+  }
+  .carousel-items {
+    padding-top: 120px;
+    gap: 0;
+  }
+  .carousel {
+    max-width: 300px;
+  }
+  .back img, .next img{
+    width: 25px;
+    height: auto;
+  }
+  .link--first {
+    margin-right: 0;
+    margin-bottom: 20%;
+  }
+  .subscribe-form {
+    width: 414px;
+    flex-direction: column;
+  }
+  .subscribe-form input {
+    padding: 15px;
+    font-size: 18px;
+  }
+  .subscribe-form button{
+    font-size: 18px;
+  }
+  .title.title--read {
+    font-size: 30px;
+    text-align: center;
+  }
+  section.drop{
+    padding: 43px 39px 111px;
+  }
+  .menu{
+    left: 170px;
+  }
+  .auction-image img{
+    width: auto;
+    height: 221px;
+  }
+  .bid{
+    padding: 15px;
+  }
+  .timer{
+    font-size: 18px;
+    padding: 10px 40px;
+    top: 166px;
+  }
+  .designation{
+    font-size: 21px;
+  }
+  .avatar img{
+    width: 50px;
+    height: auto;
+    margin-right: 45px;
+  }
+  .heart img{
+    width: 20px;
+    height: auto;
+  }
+  .like {
+    font-size: 25px;
+  }
+  .button--bid{
+    padding: 5px;
+  }
+  .current, .price {
+    font-size: 17px;
+  }
+  .bid-info{
+    margin-bottom: 30px;
+  }
+  .auctions{
+    padding: 55px 0px;
+  }
+  .works {
+    padding: 80px 0px;
+  }
+  .designation-col{
+    font-size: 21px;
+    margin-right: 55px;
+  }
+  .bid--cat{
+    margin-bottom: 7%;
+  }
+  .button--hover {
+    margin-top: -310px;
+    padding: 15px 55px;
+    transform: translateX(25px);
+  }
+  .avatar--cat img{
+    margin-right: 1%;
+  }
+  .avatar--col img{
+    margin-right: 10px;
+  }
+  .steps{
+    flex-direction: column;
+    padding: 0;
+  }
+  .text--third{
+    display: none;
+  }
+  img.line {
+    transform: rotate(90deg);
+    width: 112px;
+    margin: 83px;
+  }
+}
