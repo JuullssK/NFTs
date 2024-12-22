@@ -1079,44 +1079,74 @@ top: 750px;
 }
 @media screen and (max-width: 768px){
   .container{
-    max-width: 600px;
+    max-width: 550px;
   }
   .artist__bid {
-    top: 720px;
+    top: 835px;
   }
   .artist__start {
-    top: 1115px;
+    top: 1238px;
   }
   .carousel {
-    max-width: 615px;
+    max-width: 535px;
+  }
+  .text--third {
+    gap: 40px;
   }
   .carousel-items{
     padding-top: 165px;
   }
   .title{
-    font-size: 55px;
+    font-size: 53px;
+    padding-left: 85px;
   }
   .button--hover {
-    margin-top: -58%;
+    margin-top: -65%;
+    transform: translateX(50px);
   }
   .title--creators::before {
     right: 350px;
+    width: 90px;
+  height: 90px;
+  }
+  .title--creators{
+    padding-left: 85px;
   }
   .title--purple::before{
     right: 300px;
+    width: 90px;
+  height: 90px;
   }
   .title--purple--unique::before{
-    right: 510px;
+    width: 90px;
+  height: 90px;
+  right: 440px;
+    bottom: 60px;
   }
   .title--pink::before{
-    left: -20px;
+    width: 90px;
+  height: 90px;
+  bottom: 65px;
+  left: 35px;
   }
+  .creators {
+    padding-top: 95px;
+  }
+  .title.title--creators {
+    padding-left: 75px;
+  }
+  .title.title--creators::before {
+    bottom: -5px;
+  }
+  .cards{
+    padding-top: 135px;
+}
   .info__eth {
     margin-right: 0px;
   }
   .title.title--read {
-    font-size: 48px;
-    padding-left: 0vh;
+    font-size: 45px;
+    text-align: center;
   }
   .text--first{
     flex-direction: column;
@@ -1141,7 +1171,7 @@ top: 750px;
   display: none;
   position: absolute;
   top: 110px;
-  left: 370px;
+  left: 420px;
   width: 130px;
   background-color: white;
   list-style: none;
@@ -1169,8 +1199,40 @@ top: 750px;
   background-color: #FFCE4E;
   color: #000;
 }
-.subscribe-form input{
-  padding: 25px 15px;
+.info {
+  margin-right: 20px;
+}
+.count{
+  margin-right: 40px;
+}
+.subscribe-form {
+  width: 414px;
+  flex-direction: column;
+}
+.subscribe-form input {
+  padding: 15px;
+  font-size: 18px;
+}
+.subscribe-form button{
+  font-size: 18px;
+  padding: 15px 27px;
+}
+.subscribe-form{
+  padding-top: 24%;
+}
+.works {
+  padding: 80px 0px;
+}
+.steps{
+  flex-direction: column;
+}
+.text--third{
+  display: none;
+}
+img.line {
+  transform: rotate(90deg);
+  width: 112px;
+  margin: 83px;
 }
 }
 @media screen and (max-width: 576px){
@@ -1273,10 +1335,16 @@ top: 750px;
 .subscribe-form button {
   padding: 11px 27px;
 }
+.designation-col{
+  margin-right: 25%;
+}
+.button--hover {
+  margin-top: -82%;
+}
   }
-  @media screen and (max-width: 320px){
+  @media screen and (max-width: 450px){
     .container{
-      max-width: 300px;
+      max-width: 350px;
     }
     .slogan{
       font-size: 45px;
@@ -1409,17 +1477,6 @@ top: 750px;
     margin-right: 0;
     margin-bottom: 20%;
   }
-  .subscribe-form {
-    width: 414px;
-    flex-direction: column;
-  }
-  .subscribe-form input {
-    padding: 15px;
-    font-size: 18px;
-  }
-  .subscribe-form button{
-    font-size: 18px;
-  }
   .title.title--read {
     font-size: 30px;
     text-align: center;
@@ -1427,8 +1484,8 @@ top: 750px;
   section.drop{
     padding: 43px 39px 111px;
   }
-  .menu{
-    left: 170px;
+  .menu {
+    left: 255px;
   }
   .auction-image img{
     width: auto;
@@ -1469,9 +1526,6 @@ top: 750px;
   .auctions{
     padding: 55px 0px;
   }
-  .works {
-    padding: 80px 0px;
-  }
   .designation-col{
     font-size: 21px;
     margin-right: 55px;
@@ -1489,17 +1543,5 @@ top: 750px;
   }
   .avatar--col img{
     margin-right: 10px;
-  }
-  .steps{
-    flex-direction: column;
-    padding: 0;
-  }
-  .text--third{
-    display: none;
-  }
-  img.line {
-    transform: rotate(90deg);
-    width: 112px;
-    margin: 83px;
   }
 }
