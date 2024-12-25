@@ -85,3 +85,19 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
   
+  document.addEventListener('DOMContentLoaded', function() {
+    const socialLogos = document.querySelectorAll('.social__logo img');
+
+    socialLogos.forEach(logo => {
+        const originalSrc = logo.src;
+        const hoverSrc = originalSrc.replace('.png', '_hover.png');
+
+        logo.addEventListener('mouseenter', function() {
+            logo.src = hoverSrc;
+        });
+
+        logo.addEventListener('mouseleave', function() {
+            logo.src = originalSrc;
+        });
+    });
+});
