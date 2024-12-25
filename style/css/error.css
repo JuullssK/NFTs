@@ -212,7 +212,7 @@ font-family: Oxanium;
   }
   .container{
     max-width: 900px;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
   }
   .image-section img {
@@ -330,5 +330,8 @@ font-family: Oxanium;
   .menu__link:hover {
     background-color: #FFCE4E;
     color: #000;
+  }
+  .button.button--uniq{
+    display: none;
   }
   }
