@@ -1,7 +1,5 @@
 const carousel = document.querySelector('.carousel--popular .carousel-items');
-let isDown = false;
-let startX;
-let scrollLeft;
+let isDown = false, startX, scrollLeft;
 
 carousel.addEventListener('mousedown', (e) => {
     isDown = true;
@@ -28,30 +26,10 @@ carousel.addEventListener('mousemove', (e) => {
     carousel.scrollLeft = scrollLeft - walk;
 });
 
-carousel.addEventListener('touchstart', (e) => {
-    isDown = true;
-    startX = e.touches[0].pageX - carousel.offsetLeft;
-    scrollLeft = carousel.scrollLeft;
-    carousel.classList.add('active');
-});
-
-carousel.addEventListener('touchend', () => {
-    isDown = false;
-    carousel.classList.remove('active');
-});
-
-carousel.addEventListener('touchmove', (e) => {
-    if (!isDown) return;
-    e.preventDefault();
-    const x = e.touches[0].pageX - carousel.offsetLeft;
-    const walk = (x - startX) * 1.5;
-    carousel.scrollLeft = scrollLeft - walk;
-});
 
 const carouselItems = document.querySelector('.carousel--auctions .carousel-items');
 const backButton = document.querySelector('.carousel.back');
 const nextButton = document.querySelector('.carousel.next');
-
 let scrollAmount = 0;
 
 nextButton.addEventListener('click', () => {
@@ -74,6 +52,7 @@ backButton.addEventListener('click', () => {
     }
 });
 
+
 document.addEventListener('DOMContentLoaded', function() {
     const burgerMenu = document.getElementById('burger-menu');
     const menu = document.getElementById('menu');
@@ -85,6 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
   
+
   document.addEventListener('DOMContentLoaded', function() {
     const socialLogos = document.querySelectorAll('.social__logo img');
 
