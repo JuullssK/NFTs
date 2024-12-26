@@ -1124,13 +1124,16 @@ top: 750px;
   .title--purple--unique::before{
     width: 90px;
   height: 90px;
-  right: 440px;
-    bottom: 60px;
+  right: 505px;
+    bottom: 0;
+  }
+  .title--purple--unique{
+    padding-left: 0;
   }
   .title--pink::before{
     width: 90px;
   height: 90px;
-  bottom: 65px;
+  bottom: 0;
   left: 35px;
   }
   .creators {
